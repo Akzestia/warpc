@@ -10,7 +10,7 @@ enum class TaskStatus : uint8_t {
 };
 ```
 
-### Pengind
+### Pending
 
 > TODO
 
