@@ -14,18 +14,18 @@ enum class TaskStatus : uint8_t {
 
 > TODO
 
-### PROCESSING
+### Processing
 
 > TODO
 
-### COMPLETED
+### Completed
 
 > TODO
 
-### FAILED
+### Failed
 
 > TODO
 
-### TIMEOUT
+### Timeout
 
 > TODO
