@@ -12,20 +12,20 @@ enum class TaskStatus : uint8_t {
 
 ### Pending
 
-> TODO
+Task was successfully qued up inside execution queue.
 
 ### Processing
 
-> TODO
+Task was sent with an async flag.
 
 ### Completed
 
-> TODO
+Task was successfully completed.
 
 ### Failed
 
-> TODO
+Task failed.
 
 ### Timeout
 
-> TODO
+Task execution timedout.
