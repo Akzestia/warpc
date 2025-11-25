@@ -18,18 +18,18 @@ message ResponseHeader {
 
 # Supported types
 
-- string
-- bool
-- u8
-- u16
-- u32
-- u64
-- i16
-- i32
-- i64
-- f32
-- f65
-- array[]
+- `string`
+- `bool`
+- `u8`
+- `u16`
+- `u32`
+- `u64`
+- `i16`
+- `i32`
+- `i64`
+- `f32`
+- `f65`
+- `array[]`
 
 ```proto
 message Types {
