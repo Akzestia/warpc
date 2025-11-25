@@ -1,9 +1,6 @@
-# .wa.rpc Schema
-
-`.wa.rpc` are custom schemas similiar to goodle's protobuf, but with better performance.
+# wa.rpc Schema
 
 ```proto
-// exaple.wa.rpc
 message RequestHeader {
     payload_len: u32
     route: u8
@@ -17,4 +14,40 @@ message ResponseHeader {
     array_field: string[]
 }
 
+```
+
+# Supported types
+
+- string
+- bool
+- u8
+- u16
+- u32
+- u64
+- i16
+- i32
+- i64
+- f32
+- f65
+- array[]
+
+```proto
+message Types {
+    x: string
+    x: bool
+    x: u8
+    x: u16
+    x: u32
+    x: u64
+    x: i16
+    x: i32
+    x: i64
+    x: f32
+    x: f64
+
+    array: u8[]
+    array: bool[]
+    array: f64[]
+    ...
+}
 ```
