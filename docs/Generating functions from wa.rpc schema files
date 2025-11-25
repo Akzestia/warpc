@@ -1,1 +1,17 @@
+# wa.rpc Schema
 
+```proto
+message RequestHeader {
+    payload_len: u32
+    route: u8
+    flags: u8
+}
+
+message ResponseHeader {
+    payload_len: u32
+    task_status: u8
+    flags: u8
+    array_field: string[]
+}
+
+```
