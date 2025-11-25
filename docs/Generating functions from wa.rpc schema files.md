@@ -1,6 +1,9 @@
-# wa.rpc Schema
+# .wa.rpc Schema
+
+`.wa.rpc` are custom schemas similiar to goodle's protobuf, but with better performance.
 
 ```proto
+// exaple.wa.rpc
 message RequestHeader {
     payload_len: u32
     route: u8
